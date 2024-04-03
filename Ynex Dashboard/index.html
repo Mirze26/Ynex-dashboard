@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Ynex</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-area ">
+            <div class="col-3">
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <nav class="d-flex ">
+                <div class="icons-area">
+                    <ul>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392l.604.646l2.121-2.121l-.646-.604c-.379-.372-.885-.866-1.391-1.36M9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5s5 2.243 5 5s-2.243 5-5 5" />
+                                </svg></a></li>
+
+                        <li><button><img class="aze" src="src/img/Azerbaycan.png" alt=""></button></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M20.742 13.045a8.088 8.088 0 0 1-2.077.271c-2.135 0-4.14-.83-5.646-2.336a8.025 8.025 0 0 1-2.064-7.723A1 1 0 0 0 9.73 2.034a10.014 10.014 0 0 0-4.489 2.582c-3.898 3.898-3.898 10.243 0 14.143a9.937 9.937 0 0 0 7.072 2.93a9.93 9.93 0 0 0 7.07-2.929a10.007 10.007 0 0 0 2.583-4.491a1.001 1.001 0 0 0-1.224-1.224m-2.772 4.301a7.947 7.947 0 0 1-5.656 2.343a7.953 7.953 0 0 1-5.658-2.344c-3.118-3.119-3.118-8.195 0-11.314a7.923 7.923 0 0 1 2.06-1.483a10.027 10.027 0 0 0 2.89 7.848a9.972 9.972 0 0 0 7.848 2.891a8.036 8.036 0 0 1-1.484 2.059" />
+                                </svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921M17.307 15h-6.64l-2.5-6h11.39z" />
+                                    <circle cx="10.5" cy="19.5" r="1.5" fill="currentColor" />
+                                    <circle cx="17.5" cy="19.5" r="1.5" fill="currentColor" />
+                                </svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M19 13.586V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v3.586l-1.707 1.707A.996.996 0 0 0 3 16v2a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-2a.996.996 0 0 0-.293-.707zM19 17H5v-.586l1.707-1.707A.996.996 0 0 0 7 14v-4c0-2.757 2.243-5 5-5s5 2.243 5 5v4c0 .266.105.52.293.707L19 16.414zm-7 5a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22" />
+                                </svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M10 3H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1M9 9H5V5h4zm5 2h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1m1-6h4v4h-4zM3 20a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1zm2-5h4v4H5zm8 5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1zm2-5h4v4h-4z" />
+                                </svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M5 5h5V3H3v7h2zm5 14H5v-5H3v7h7zm11-5h-2v5h-5v2h7zm-2-4h2V3h-7v2h5z" />
+                                </svg></a></li>
+                    </ul>
+
+                    <div class="country-languages d-none ">
+                        <ul class="flag-area">
+                            <li class="list1">
+                                <img src="src/img/england.jpg" alt="">
+                                <span> English</span>
+                            </li>
+
+                            <li class="list2">
+                                <img src="src/img/germany.jpg" alt="">
+                                <span> German</span>
+                            </li>
+
+                            <li class="list3">
+                                <img src="src/img/italy.jpg" alt="">
+                                <span> Italian</span>
+                            </li>
+
+                            <li class="list4">
+                                <img src="src/img/spain.jpg" alt="">
+                                <span> Spain</span>
+                            </li>
+
+                            <li class="list5">
+                                <img src="src/img/russia.jpg" alt="">
+                                <span> Russian</span>
+                            </li>
+
+                            <li class="list6">
+                                <img src="src/img/french.jpg" alt="">
+                                <span> French</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shop-number">5</div>
+                    <div class="shop-notice">5</div>
+                </div>
+
+                <div class="user d-flex ">
+                    <a href=""> <img src="src/img/1.jpg" alt=""></a><span class="user-name">Json Taylor</span>
+                    <span class="user-job">Web Designer</span>
+                </div>
+
+                <div class="setting-icon">
+                    <i class="fa-solid fa-gear fa-spin"></i>
+
+                </div>
+
+
+            </nav>
+        </div>
+
+        <div class="side-bar">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <div class="sideBar-logo">
+                <a href=""> <img src="src/img/1.png" alt=""></a>
+            </div>
+
+            <div class="dashbord-line"></div>
+
+            <div class="menu">
+                <div class="container ">
+                    <div class="main"><span>MAIN</span></div>
+                    <div class="item"><a class="sub-btn"><i class="fas fa-desktop"></i>
+                            Dashboards <p class="number">12</p><i class="fa-solid fa-angle-right right dropdown "></i>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Sales</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Crypto</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Jobs</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> CRM</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>
+                                            Ecommerce</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>
+                                            Analiystic</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Projects</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> NFT</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> HRM</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Personal</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Stocks</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Course</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+
+
+
+                    <div class="main"><span>GENERAL</span></div>
+                    <div class="item"><a class="sub-btn"><i class="fa-solid fa-cube"></i>
+                            Advanced UI <p class="number">12</p><i class="fa-solid fa-angle-right right"></i>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Accordions &
+                                            Collapse</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Carousel</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Draggable
+                                            Cards</a></li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Modals &
+                                            Closes</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Navbars</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Offcanvas</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i
+                                                class="fa-solid fa-minus minus"></i>Placeholders</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Ratings</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Scrollspy</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Swiper JS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+
+
+
+
+                    <div class="main"><span>PAGES</span></div>
+                    <div class="item"><a class="sub-btn"><i class="fa-solid fa-lock"></i>
+                            Authentication <p class="number">12</p><i class="fa-solid fa-angle-right autentication"></i>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Coming
+                                            Soon</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Create
+                                            Password</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Lock
+                                            Screen</a></li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Reset
+                                            Password</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Sign Up</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Sign In</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Two Step
+                                            Verification</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Under
+                                            Maintenance</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i
+                                                class="fa-solid fa-minus minus"></i>no-internet</a></li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Error</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="discover">
+            <div class="container">
+                <div class="col-12">
+                    <div class="border">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="discover-area d-flex ">
+                                    <div>
+                                        <h4>Discover, collect and sell your
+                                            <span>NFTs</span> at one <br> place
+                                        </h4>
+                                        <p>NFT means non-fungible tokens (NFTs), which are generally created using the
+                                            same
+                                            type of programming used for cryptocurrencies.It is is a unique digital
+                                            identifier that cannot be copied.
+                                        </p>
+                                        <div class="discover-btn">
+                                            <button class="btn1" type="button">Discover Now</button>
+                                            <button class="btn2" type="button">Create Yours</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="discover-img">
+                                        <img src="src/img/2.png" alt="">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+
+
+                                <div class="assets">
+                                    <div class="svg1">
+                                        <svg class="svg-white" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                            viewBox="0 0 24 24" width="24px" fill="#000000">
+                                            <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                            <path
+                                                d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z">
+                                            </path>
+                                        </svg>
+
+                                        <span>Total Assets</span>
+                                        <span>596</span>
+                                        <span>0.25%This month</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="value">
+
+                                </div>
+
+                                <div class="balance">
+
+                                </div>
+
+                                <div class="sales">
+
+                                </div>
+
+                                <div class="revenue">
+
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e53a0e3ee5.js" crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
